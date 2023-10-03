@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste aprendizados módulo 2</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        div{background-color: blueviolet; text-align: center; height: 50px; width: 50px; border-color: black; border-width: 3px; border-style: solid; display: inline-block;}
+        
+       div > p{display: none;}
+       div:hover >p{display: block;}
+       
+
+        div:hover{background-color: lightgreen; color: blue;}
+
+        a{color: black; font-family: Arial, Helvetica, sans-serif; text-decoration: none;}
+a:visited{color: rgb(48, 170, 170);}
+
+a:hover{text-decoration: underline; color: brown;}
+
+a:active{color: blueviolet;}
+
+a::after{ content:'[link]'}
+
+.feito::after{content: '[feito]';}
+
+.modelodecaixas{margin: 30px 600px;}
+
+div.tipos:hover{background-color: rgb(224, 189, 143); width: 200px; height: 300px; border-style:none; display: inline-block; margin:30px; color: black; }
+
+div.tipos > p{display: block;}
+
+.tipos{background-color: rgb(224, 189, 143); width: 200px; height: 300px; border-style:none; display: inline-block; margin:30px;}
+
+    
+    </style>
+</head>
+<body>
+    <h1>Teste Aprendizados módulo 2</h1>
+    <hr>
+    
+    <h2>Assuntos aprendidos</h2>
+    <p>Psicologia das cores, harmonia, tipografia, fontes, etc.</p>
+    
+    <h2>Representando cores no CSS</h2>
+    <p>códigos hexadecimais tipo #0000ff </p>
+    <p>representação rgb (0, 0, 255)
+        <p>função HSL</p>
+        <p>rgba - transparência</p>
+        <h2>Sites para paletas de cores</h2>
+    <ul>
+        <li><a href="https://paletton.com/" target="_blank">Paleton.com</a></li>
+        <li><a  href="https://coolors.co/" target="_blank">Coolors</a></li>
+        <li><a  href="https://color.adobe.com/pt/create/color-wheel" target="_blank">color.adobe.com</a></li>
+    </ul>
+    </p>
+    
+    <h2>Capturar cores da tela</h2>
+    <p>extensão Colorzilla</p>
+    
+    <h2>Criar degrade com CSS</h2>
+    <p style="background-image: linear-gradient( to right, rgba(84, 82, 82, 0.541), grey, white );">Usamos o background-image e linear-gradient com {to right, cor, cor, cor}</p>
+    
+    <h2>Padding/Margin/Border Radious</h2>
+    <p style="background-color: aqua; padding: 20px; margin: 70px; border-radius: 40px;">com padding podemos ajustar a largura da 'caixa', Margin ajustar o tamanho das margens e botder radious o contorno</p>
+
+    <h2>Box Shaddow e text shaddow</h2>
+    <p style="background-color: rgb(60, 60, 162); box-shadow: 5px 5px 5px rgba(11, 38, 147, 0.695); color: aliceblue; text-shadow: 3px 3px 3px rgb(211, 153, 153);">usamos box shaddow e text shaddow para adicionar sombra</p>
+
+    <h2>Estudo de Tipografia</h2>
+    <p>estudo das fontes e seu início</p>
+    <p>anatomia das fontes</p>
+    <p>Categorias de fontes:
+        <ul>
+            <li>Serifadas</li>
+            <li>Sans Serif</li>
+            <li>monoespaçada</li>
+            <li>handwriting</li>
+            <li>display</li>
+
+        </ul>
+    </p>
+
+    <h2 style="font-family: Arial, Helvetica, sans-serif;">Famílias de fonte</h2>
+    <p style="font-family: Arial, Helvetica, sans-serif;">ao selecionar uma familia de fonte, ele possui alguns tipos para serem rodados de acordo com cada navedor.</p>
+    <p style="font-family: Arial, Helvetica, sans-serif;">nessa parte usamos a familia arial</p>
+
+    <h2>Tamanho de fontes</h2>
+    <p>Usamos a escala em para tamanho de fontes em que 1em = 16px</p>
+    <p>seguindo as normas W3C</p>
+
+    <H2>peso, estilo e shorthand</H2>
+    <p style="font-weight: 600;">peso da fonte usamos com font-weight</p>
+    <p style="font-style: italic;">font-style para o estilo</p>
+    <p style="text-decoration: underline;">Text Decoration se quiser add por exemplo sublinhado</p>
+<p style="font: italic 300 20px Arial;">shorthand serve para designar todos estilos da fonte em um só atalho formado por: font: font style,font weight, font size, font family (sem , entre os fonts)</p>
+
+<h2>Google fonts</h2>
+<p>Podemos buscar fontes no site <a  href="https://fonts.google.com/" target="_blank">fontes.google.com</a></p>
+<p>para carregar no arquivo html, inserimos após a primeira linha &ltStyle&gt: @font-face{}</p>
+
+<h2>tipos de formato de fonte</h2>
+<p><ul>
+    <li>Opentype(otf)</li>
+    <li>Truetype(ttf)</li>
+    <li>embedded-opentype</li>
+    <li>truetype aat(apple advanced typography)</li>
+    <li>svg</li>
+</ul>
+</p>
+
+<h2>Capturando fontes de um Site</h2>
+<p>Utilizamos extensão do google - FontsNinja</p>
+<p>Para achar fontes de imagens temos os sites:
+    <ul>
+        <li><a href="https://www.whatfontis.com/" target="_blank">WhatFontIs?</a></li>
+        <li><a href="https://www.fontsquirrel.com/" target="_blank">FontSquirrel</a></li>
+        <li><a href="https://www.myfonts.com/" target="_blank">MyFonts.com</a></li>
+    </ul>
+</p>
+
+<h2>Alinhamento de textos em CSS</h2>
+<p style="text-indent: 30px;">Text indent - usa para indicar o início do parágrafo com px ------- Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem perspiciatis vitae debitis beatae earum molestiae excepturi eum adipisci dolor ullam quae iusto itaque, fugiat in perferendis quam corrupti dolore a!</p>
+<p style="text-align:center; background-color: aqua; padding: 30px; width: 180px;">usamos text align para alinhar o texto com as partes do site</p>
+
+<h2>Usando ID com CSS</h2>
+<p>Com IDs e Classes formamos seletores especiais para estilização com CSS</p>
+exemplos de ID e Classe:
+<ul>
+<li>&lth1 id="principal"</li>
+<li>&lth2 class="idioma"</li> 
+</ul>
+
+<p class="avancado">e no CSS Id é usada com # e Classe usada com . (um ponto)</p>
+<p id="principal">ID pode mudar só um elemento e Class pode mudar +de 1</p>
+
+<p class="avancado destaque">Podemos unir duas classes tambem como por exemplo: &lth1 class=" avançado destaque" sem usar vírgula</p>
+
+<h2>Pseudo Classes</h2>
+<p>criamos pseudoclaases para situações em que passamos o mouse em cima de um elemento, clicamos nele ou qualquer outra interação</p>
+
+<div>oi</div>
+<div>qual</div>
+<div>seu</div>
+<div>nome</div>
+
+<p>como exemplo se colocarmos no &ltstyle&gt div:hover{ criamos uma pseudoclasse que muda o estado da div ao passar o mouse por cima dela. por isso as pseudoclasses são demonstradas com : ao lado da tag no style</p>
+
+    <h2>Pseudoclasse</h2>
+    <div style="color: black; background-color: rgba(240, 248, 255, 0); width: max-content; height: 30px; border-style: none;">Passe o mouse aqui
+        <p>vasco</p>
+    </div>
+    <p>portanto para esconder um texto dentro de uma div usamos div >p {display: none} e div:hover > p{displat: block} para aparecer
+
+    </p>
+    <p>outra pseudoclasse usada é a a:visited que pode mudar a cor de um link já visitado</p>
+
+    <p>também temos o a:active que muda algo quando o link é clicado</p>
+
+    <h2>Pseudo elementos</h2>
+    <p>podemos adicionar pseudo elementos com o simbolo :: por exemplo: para adicionar algo escrito após cada item de uma lista usamos li::after{content:'[feito]'}</p>
+    <ul>
+        <li class="feito">compras</li>
+        <li class="feito">buscar no judo</li>
+        <li class="feito">ir ao cinema</li>
+    </ul>
+
+    <h2>simbolos importantes</h2>
+    <p>temos como simbolos importantes:</p>
+    <ul>
+<li># - ID</li>
+<li>. - class</li>
+<li>: - Pseudo-Classe</li>
+<li>:: - pseudo elemento </li>
+<li> > children (esta dentro de uma div)</li>
+</ul>
+
+<h2>Modelo de Caixas</h2>
+<p>Formas de estilizar as caixas:</p>
+<ul>
+<li>Tamanho: height e width</li>
+<li>Borda: border</li>
+<li>Padding: aumentando a caixa em relação a borda</li>
+<li>Margin: espaço externo para não esbarrar em outra caixa</li>
+<li>Borda fora da caixa: outline</li>
+</ul>
+<h2>Tipos de caixa</h2>
+
+<div class="tipos">
+    <p>Box-Level (pula uma linha para inserir)</p> 
+    <ul>
+        <li>div</li>
+        <li>h1-h6</li>
+        <li>p</li>
+        <li>main</li>
+        <li>header</li>
+        <li>nav</li>
+        <li>article</li>
+        <li>aside</li>
+        <li>footer</li>
+        <li>form</li>
+        <li>video</li>
+    </ul>
+</div>
+    <div class="tipos">
+<p>Inline-Level(cria caixa no meio do texto, se pular linha)</p>
+<ul>
+<li>span</li>
+<li>a</li>
+<li>code</li>
+<li>small</li>
+<li>strong</li>
+<li>em</li>
+<li>sup-sub</li>
+<li>label</li>
+<li>button</li>
+<li>input</li>
+<li>select</li>
+</ul>
+</div>
+
+<h2>Modelo de caixas na prática</h2>
+<p>O modelo de caixas na prática se da pelo conceito de cada tag praticamente se enquadrar no site como uma caixa de conteúdo. Com isso, podemos adaptar esteticamente componentes dessas caixas como margem, borda, pading, outline, como podemos ver na seguinte imagem: <br> <img class="modelodecaixas" style="width: 300px;" src="https://miro.medium.com/v2/resize:fit:965/1*kGMWtZihmaUhxZI5ZVicLA.png" alt=""></p>
+<p>Nesse contexto, para analisar esses membros sem ter que ficar chutando valores, podemos utilizar o inspecionar do google.</p>
+<p>Então temos as seguintes shorthands para edição dentro das caixas:</p>
+<ul>
+<li>Border: width style color</li>
+<li>Padding: top rigth bottom left</li>
+<li>Margin: top rigth bottom left</li>
+<li>Outline: width style color </li>
+</ul>
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>

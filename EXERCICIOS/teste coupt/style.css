@@ -1,0 +1,16 @@
+
+@font-face {
+    font-family:AzureoN ;
+    src: url(AzureoN.ttf) format(ttf);
+}
+body{background-image: linear-gradient(to right,#60BFFE,#57D2E6,#6DFCE9,#57E6AA  );}
+        #principal{
+            color: azure; font-family:AzureoN, Geneva, Tahoma, sans-serif; text-align: center; background-image: linear-gradient(to right,#4a94c5aa,#368490aa,#367c73aa,#3f9e77aa);
+        border-radius: 30px;
+    box-shadow: 4px 4px 4px rgba(11, 52, 126, 0.63);}
+
+    .clique{color: #023c44;}
+        p{color: azure; font-family: Verdana, Geneva, Tahoma, sans-serif; text-align: center;}
+
+        h1{color: azure;}
+        

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste completão</title>
+    <link rel="shortcut icon" href="https://s3p.sofifa.net/bf6ad21f44d27b67983ca1923d4851935974a199.jpg" type="image/x-icon">
+    <style>mark{background-color: blueviolet;</style>
+</head>
+<body>
+    <style>body{background-color: rgb(125, 243, 243);</style>
+
+    <h1>Teste completo de tudo que aprendi até agora</h1>
+    <hr>
+    <h2>Parágrafo e tag &lt;br&gt; </h2>
+    <p>conseguimos colocar parágrafos com a tag &lt;p&gt; e pular uma linha <br>com a tag &lt;br&gt; </p>
+    <h2>Favicon</h2>
+    <p>aqui iremos adicionar o favicon da página, para isso temos que ir no head e colocar a tag &ltlink:favicon&gt, podendo colocar como favicon uma imagem salva na pagina do arquivo ou imagem da web </p>
+    <h2>Tag para negrito e itálico</h2>
+    <h3>negrito</h3>
+    <p><strong>para deixar em negrito utilizamos a tag &ltstrong&gt</strong> </p>
+    <h3>itálico</h3>
+    <p><em>para deixar em itálico usamos a tag &ltem&gt</em> </p>
+    <h2>selecionar parte do texto e add tag</h2>
+    <p>para selecionar uma parte do texto e add uma tag a ele utilizamos os comando ctrl shift P em cima da parte selecionada </p>
+    <h2>Mudar cor do site</h2>
+    <p>para mudar a cor do site, utilizaremos a tag &ltstyle&gt dentro do &ltbody&gt com a tag &ltbody{background-color&gt </p>
+        <h2>Hierarquia de textos</h2>
+        <p>temos dentro do html a hierarquia de textos com &lth1&gt &lth2&gt &lth3&gt &lth4&gt &lth5&gt &lth6&gt </p>
+        <h2>adicionar imagem</h2>
+        <p>aqui usaremos a tag &ltimg&gt para adicionar uma imagem</p>
+        <p><img src="bf6ad21f44d27b67983ca1923d4851935974a199.jpg" alt="burak reis"></p>
+        <h2>simbolos e emojis</h2>
+        <p>podemos adicionar simbolos e emojis atraves de varias tags como &reg  &copy  &trade &euro </p>
+        <p>&reg; &copy; &euro; &trade;</p>
+        <p>para adicionar emoji usa a tag &#x e o numero do emoji</p>
+        <p>&#x261D</p>
+        <h2>escrever a tag sem abrir tag</h2>
+        <p>para descrever sem abrir podemos usar & lt e & gt </p>
+        <h2><mark>Texto marcado</mark></h2>
+    <p>podemos criar um <mark>texto marcado</mark> com a tag &lt;mark&gt;</p>
+    <p>podemos mudar também tods as cores das marks juntas indo em &lt;head&gt; e adicionando &lt;style&gt; &lt;mark&gt; {background-color </p>
+        <h2>texto grande e pequeno</h2>
+    <p>estamos criando <big>texto grande</big> e <small>texto pequeno</small> no mesmo texto</p>
+    <p>para isso usamos as tags &lt;big&gt; e &lt;small&gt;</p>
+    <h2>texto excluido</h2>
+    <p>podemos <del>marcar um texto como excluido</del> para mostrar que foi retirado</p>
+    <h2>texto incluído</h2>
+    <p>podemos marcar um <ins>texto como inserido</ins> para mostrar que foi adicionado</p>
+    <p>tags &lt;del&gt; e &lt;ins&gt; </p>
+    <h2>texto sublinhado</h2><p><u>texto sublinhado é a tag</u> &lt;u&gt;</p>
+    <h2>texto sobrescrito</h2>
+    <p>para inserir coisas do tipo x<sup>20</sup>+3</p>
+    <h2>texto subscrito </h2>
+    <p>para inserir coisas do tipo H<sub>2</sub>O</p>
+    <p>para isso são usadas as tags &lt;sup&gt; e &lt;sub&gt; </p>
+    
+    <h2>código fonte/pré formatação </h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript</p>
+    <pre>
+        <code>
+num = input(input('Digite um número'))
+if num % 2 == 0;
+print(f'0 número {num} é PAR')
+else:
+print(f'0 número {num} é ÍMPAR)
+print('Fim do programa')
+</code>
+    </pre>
+    <p>para colocar em formato de código usa se a tag &lt;code&gt;</p>
+    <p>deixar o código visualmente correto usa se a tag &lt;pre&gt;</p>
+<p>e para retirar espaços, seleciona parte escrita e aperta shift+tab</p>
+<h2>citações</h2>
+    <p>como diria meu pai:<q> o computador é um burro muito rápido</q></p>
+    <p>para isso usamos a tag &lt;q&gt;</p>
+    <h2>citações completas</h2>
+    <p>Segundo jeff no livro HTML para leigos:</p>
+    <blockquote> A diferença entre elementos inline e um bloco de texto é importante. os elementos html neste capítulo descrevem os blocos de texto.</blockquote>
+    <p>para isso usamos a tag &lt;Blockquote&gt; e no vídeo da aula (24 módulo1) mostra como colocar também o Cite para anexar o link internamente</p>
+    <h2>abreviações</h2>
+    <p>estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr> </p>
+    <p>fazemos isso com a tag &lt;abbr&gt; envelopada no texto abreviado</p>
+    <h2>listas ordenadas</h2>
+    <ol type="I">
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>passear com o cachorro</li>
+        <li>almoçar</li>
+        <li>ir para a escola</li>
+        <p>para fazer listas ordenadas utilizamos as tags &lt;OL&gt;e dentro de cada item &lt;Li&gt;</p>
+        <p>para modificar a OL, utilizamos a tag &LT;Type&gt; dentro do OL, como Type=" "</p>
+    </ol>
+    <h2>Listas não ordenadas<h2>
+        
+            <ul>
+                <li>vasco</li>
+                <li>flamengo</li>
+                <li>botafogo</li>
+                <li>bangu</li>
+            
+                </ul>
+                <p>Para fazer listas não ordenadas utilizamos as tags &lt;Ul&gt; e &lt;Li&gt; para cada item</p>
+                <h2>Times do Brasil e do Mundo</h2>
+        <ol type="I">
+            <li>Brasil</li>
+            <ol type="i">
+                <li>Vasco</li>
+                <li>Flamengo</li>
+            </ol>
+            <li>Mundo</li>
+            <ol type="i" start="3">
+                <li>Barcelona</li>
+                <li>Bayern</li>
+                </ol>
+            
+            
+            </ol>
+            <h2>Consoles favoritos e jogos</h2>
+            <ol>
+                <li>Wii</li>
+                <uL type="square">
+                    <li>PES</li>
+                    <li>Mario Kart</li>
+                    </uL>
+                <li>XBOX</li>
+                <ul type="square">
+                    <li>UFC</li>
+                    <li>FIFA13</li>
+                </ul>
+                <li>PS4</li>
+                <ul type="square">
+                    <li>FIFA20</li>
+                    <li>NBA2K14</li>
+                 </ul>
+                </ol>
+                <p>para colocar uma lista dentro da outra abrimos uma lista com OL ou UL e adicionamos os LI. Depis, dentro de cada LI adicionamos mais uma lista OL ou UL.</p>
+                <p>Para selecionar dois ou mais espaços diferentes para se mudar em um texto apertamos ALT.</p>
+                 <h2>Lista de definição</h2>
+                <dl>
+                    <dt>Vasco</dt>
+                    <dd>Time de futebol do Rio</dd>
+                    <dt>Flamengo</dt>
+                    <dd>Time de futebol do Rio</dd>
+                    <dt>Lakers</dt>
+                    <dd>Time de basquete de Los Angeles</dd>
+         <p> podemos fazer listas de definição com a tag &lt;dl&gt; e dentro dela temos as tags &lt;dt&gt; para dizer o item e &lt;dd&gt; para descrever esse item</p>
+         <h2>Links internos e externos</h2>
+         <p> Podemos utilizar links internos e externos no site, vejamos abaixo:</p>
+
+         <h2>Trabalhando com Links externos</h1>
+    
+    <p>Você pode acessar o meu <a href="https://gustavoguanabara.github.io/" target="_blank" rel="external">repositório público no Github</a></p>
+    <p>você pode também acessar meu <a href="https://youtube.com/cursoemvídeo/" target="_blank" rel="external">canal gratuito no youtube</a></p>
+
+    <p>Para adicionar um link a um texto basta envelopa-lo e adicionar a tag &lt;a&gt; e na tag escrever o endereço URL no href=" "</p>
+    <p>para esse link não sobrebor seu site ao clica-lo, utilize após o "endereço" a função 'target="_blank" rel="external"'</p>
+
+        <h2>Links Internos</h2>
+    <p>esta é a primeira página do meu site, se você quiser, pode acessar também a minha <a href="page002.html" rel="next">segunda página</a> </p>
+    <p>você pode acessar também nossa <a href="noticias/page003.html" ref="next">página de notícias</a></p>
+
+    <p>para links internos deve adicionar outra pagina criada na mesma pasta dentro do href=" ". Após adicionar selecione após o href=" " rel="next" ou rel="prev" para dizer ao navegador se está indo ou voltando em uma página</p>
+    <p>pode usar também a rel="no follow" para não deixar o navegador seguir o link na busca</p>
+    <p>para adicionar uma página de outra pasta dentro da mesma pasta vá ao href=" ' selecionado e digite ../ ou ctrl+espaço e ache a pasta </p>
+
+    <H2>links para download</H2>
+    <ul>
+        <li><a href="Currículo Rafael Villela(.).pdf "target="_blank" type="application/pdf">Baixar livro em PDF</a></li>
+        <p>para adicionar um link de download colocamos um arquivo de download incluso na mesma pasta dentro do href" " na tag &lt;a&gt;</p>
+
+        <h2>Imagem dinâmica</h2>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+       <source media="(max-width:750px )" srcset="imagens/rafa300.jpeg" type="image/png">
+        <source media="(max-width:1000px )" srcset="imagens/rafa700.jpeg" type="image/png">
+        <img src="imagens/rafa-1000.jpeg" alt="imagem flexível">
+        </picture>
+
+        <p>Para adiconar uma imagem dinâmica utilizamos a tag &lt;picture&gt; e dentro dela colocamos a &lt;img&gt;preferida.</p>
+         
+        <p>Com isso, para adaptar a imagem ao tamanho da tela do navegador, usamos as tags &lt;source-media-type&gt;para add imagens que irão aparecer caso o tamanho da tela mude.</p> 
+         
+         <p>Devemos ter a noção semântica de que as imagens menores devem estar em sources em linhas acmia das imagens maiores</p>
+
+         <h2>Colocando áudio no site</h2>
+        <p>Vamos aprender a reproduzir áudio no site em HTML5</p>
+        <audio src="midias/rap.song.mp3.mp3" controls autoplay></audio>
+        <p>Para adicionar audio no site, utilizamos a tag &lt;audio&gt; e colocamos o arquivo dentro do src=" ".
+            <p>para deixar o audio tocando quando abre o site usa-se o autoplay. No entanto caso não esteja funcionando, deve tentar utilizar outros sources sem ser mp3 como ogg ou wav</p>
+
+            <p>Para add um player para escutar o audio, adicionamos controls após o src=" "</p>
+            <p>temos também as funções preload e loop</p>
+
+            <h2>Adicionando vídeos no site com hospedagem local</h2>
+    <p>este vídeo está hospedado no meu próprio servidor</p>
+  <video width="300" controls poster="midias/capa.png"
+  src="midias/Meu.Video.mkv.mkv">
+  <source src="midias/meu.video.ogv.ogv" type="vídeo/ogv">
+  <source src="midias/Meu.Video.mkv.mkv" type="vídeo/mkv">
+  <source src="midias/Meu.Video.webm.webm" type="vídeo/webm">
+  </video>
+
+  <p>para adicionar vídeos com hospedagem interna no site, usamos a tag &lt;video&gt; em que podemos add o vídeo e mudar seu tamanho, adicionar um player e também colocar uma capa usando width, controls e poster logo após &lt;video </p>
+    <p>é importante colocar através de &lt;source src&gt;outros tipos de arquivo do vídeo para que possam rodar em outros navegadores </p>
+
+    <h2>inserindo vídeos do youtube</h2>
+  <iframe width="400
+  " height="300" src="https://www.youtube.com/embed/Nw53FzziejM?si=ZnEukDQB867HZyJD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <p>
+    para inserir um vídeo do youtube basta ir em compartilhar no vídeo escolhido, clicar em incorporar e copiar o código. Depois basta colar no Virtual Studio Code que já será incorporado ao site
+    </p>
+
+    <h2 style="color: blueviolet; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 15px; text-align: center;"> Mudando coisas com CSS </h2>
+    <p>podemos mudar cor e fonte das tags com style ao lado da tag</p>
+    <p>como por exemplo usando style="color" para mudar a cor, style='font-family" para mudar a fonte e style="text-align" para alinhar o texto</p>
+    
+       
+
+
+    
+</body>
+</html>
